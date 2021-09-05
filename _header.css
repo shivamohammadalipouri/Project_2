@@ -1,0 +1,89 @@
+
+$flex: flex;
+$background_blue: #5B5BFF;
+$btn_color: #0101AA; 
+$btn_2_color: #4444FF;
+$link_blue: blue;
+$div5_clor: #F0F0F0;
+$white: white;
+$cursor_p: pointer;
+$c: center;
+$size: 12px;
+$s_33: 33px
+
+.div_3 {
+    display:  $flex;
+    flex-direction: row;
+    width: 100%;
+    width: auto;
+}
+
+.div_4 {
+    width: 80%;
+    height: 220px;
+    background-color: $blue;
+    color: $white;
+    padding: 52px;
+    text-align: $c;
+}
+
+.div_4 p {
+    margin-top: 40px;
+    margin-bottom: 27px;
+    font-size: 14px;
+    text-align: $cr;
+}
+
+.div_5 {
+    width: 30%;
+    height: 220px;
+    background-color: $div5_clor;
+    padding: 9px 3px;
+    
+}
+
+.div_5 form {
+    display: $flex;
+    flex-direction: column;
+    align-items: $c;
+}
+
+#name,
+#password {
+    width: 90%;
+    height: $s_33;
+    text-align: $c;
+}
+
+#password {
+    margin: 10px;
+}
+
+.btn {
+    background-color: $btn_color;
+    width: 23%;
+    height: $s_33;
+    font-size: $size;
+    cursor: $cursor_p;
+    color: whith;
+}  
+
+.btn_2 {
+    background-color: $btn_2_color;
+    width: 90%;
+    height: $s_33;
+    font-size: 13px;
+    cursor: $cursor_p;
+}
+
+.link {
+    color: $link_blue;
+    font-size: $size;
+    margin: $s_33;
+    cursor: $cursor_p;
+}
+
+input::placeholder {
+    font-size: $size;
+    text-align: $c;
+}

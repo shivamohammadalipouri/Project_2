@@ -1,0 +1,22 @@
+$C: center;
+
+.title {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: $C;
+    align-items: $C;
+    margin: 20px 0px;
+}
+
+.title hr {
+    flex-grow: 1;
+}
+
+
+.title p {
+    font-size: 14px;
+    color: blue;
+    margin: 0px 10px;
+
+}

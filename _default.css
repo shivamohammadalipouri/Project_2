@@ -1,0 +1,13 @@
+$S_0: opx;
+
+*{
+    padding: $S_0;
+    margin: $S_0;
+    box-sizing: border-box;
+    font-family: "iransans";
+}
+
+html,
+body {
+    width: 100%;
+}

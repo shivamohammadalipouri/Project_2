@@ -1,0 +1,26 @@
+$C: center;
+
+.footer {
+    display: flex;
+    justify-content: $C;
+    align-items: $C;
+    width: 100%;
+    height: auto;
+    margin: 30px;
+}
+
+.footer ul {
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    list-style-type: none;
+}
+
+.footer ul li {
+    font-size: 12px;
+}
+
+.footer ul a {
+    color: #2e2ef7;
+    cursor: pointer;
+}
